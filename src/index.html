@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -8,39 +8,107 @@
   <link href="./output.css" rel="stylesheet" />
 </head>
 
+<body class="scroll-smooth">
 
-<div class="content">
+  <div class="content">
 
-  <section class="bg-stone-900">
-    <!-- header -->
-    <div class="flex justify-between py-3 px-4" id="header">
-      <img style="width: 5%;" src="img/Logo_svg.svg" alt="">
-      <div class=" gap-5 flex-wrap place-content-center" id="header">
-        <ul class="flex text-white gap-3 place-content-center font-semibold">
-          <li class="hover:text-[#60A5FA]"><a href="">Inicio</a></li>
-          <li class="hover:text-[#60A5FA]"><a href=""> Nossos serviços</a></li>
-          <li class="hover:text-[#60A5FA]"><a href="">Diferenciais</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-stone-800 h-[600px]">
-    <div class=" px-10 flex">
-      <div id="txt" class="py-14 content-center">
-        <div class=" text-white uppercase font-bold text-5xl tracking-wider leading-tight">
-          Venha ser <span class="text-[#60A5FA]">next</span> <span class="text-[#6EE7B7]">trade</span>, investindo
-          no futuro hoje
+    <section class=" bg-stone-900 fixed w-full">
+      <!-- header -->
+      <div class="flex justify-between py-3 px-4" id="header">
+        <img style="width: 5%;" src="img/Logo_svg.svg" alt="">
+        <div class=" gap-5 flex-wrap place-content-center" id="header">
+          <ul class="flex text-white gap-3 place-content-center font-semibold">
+            <li class="hover:text-[#60A5FA]"><a href="#home">Inicio</a></li>
+            <li class="hover:text-[#60A5FA]"><a href="#produtos"> Nossos serviços</a></li>
+            <li class="hover:text-[#60A5FA]"><a href="">Diferenciais</a></li>
+          </ul>
         </div>
       </div>
-      <div class="py-3" id="source">
-        <img src="./img/Mockup_NextTrade.png" alt="">
+    </section>
+
+    <section id="home" class="bg-stone-950 h-[600px]">
+      <div class=" px-10 flex">
+        <div id="txt" class="py-14 content-center">
+          <div class=" text-white uppercase font-bold text-5xl tracking-wider leading-tight">
+            Venha ser <span class="text-[#60A5FA]">next</span> <span class="text-[#6EE7B7]">trade</span>, investindo
+            no futuro hoje
+          </div>
+        </div>
+        <div class="py-14" id="source">
+          <img src="./img/Mockup_NextTrade.png" alt="">
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="produtos" class="py-8">
+      <div class=" text-center">
+        <div class=" text-4xl font-medium">
+          <h2>Produtos e Serviços</h2>
+        </div>
+        <div class="py-2 text-2xl">
+          <p>Conheça os serviços e produtos oferecidos pela Next Trade</p>
+        </div>
+      </div>
+
+      <div class="py-10 flex gap-40 justify-center">
+
+        <div class="grid grid-cols-2 gap-5">
+          <div class="w-64 bg-[#F5F5F5] rounded-2xl p-5">
+            <div class="flex justify-between text-2xl font-semibold">
+              <p>Cartão de crédito</p>
+              <img src="./img/credit_card.svg" alt="">
+            </div>
+            <div class="text-lg py-2 font-medium text-[#404040]">
+              <p>Sem anuidade</p>
+            </div>
+          </div>
+
+          <div class="w-64 bg-[#F5F5F5] rounded-2xl p-5">
+            <div class="flex justify-between text-2xl font-semibold">
+              <p>Renda <br> variável</p>
+              <img src="./img/Variavel.svg" alt="">
+            </div>
+            <div class="text-lg py-2 font-medium text-[#404040]">
+              <p>Com taxa zero</p>
+            </div>
+          </div>
+
+          <div class="w-64 bg-[#F5F5F5] rounded-2xl p-5">
+            <div class="flex justify-between text-2xl font-semibold">
+              <p>Renda <br> fixa</p>
+              <img src="./img/RendaFixa.svg" alt="">
+            </div>
+            <div class="text-lg py-2 font-medium text-[#404040]">
+              <p>Melhores rendimentos</p>
+            </div>
+          </div>
+
+          <div class="w-64 bg-[#F5F5F5] rounded-2xl p-5">
+            <div class="flex justify-between text-2xl font-semibold">
+              <p>100% <br> Digital</p>
+              <img src="./img/smartphone.svg" alt="">
+            </div>
+            <div class="text-lg py-2 font-medium text-[#404040]">
+              <p>Aplicativo Next Trade</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="">
+          <div class="w-80">
+            <img src="./img/CartãoCredito.svg" alt="">
+          </div>
+        </div>
+
+      </div>
 
 
-</div>
+
+    </section>
+
+
+  </div>
 
 </body>
 
